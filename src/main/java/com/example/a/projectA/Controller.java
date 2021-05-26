@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping(value = "/")
     public String getMessage() {
-        return "Hello";
+        return "Hello, this is a test project for PU";
     }
 
     @GetMapping(value = "/helloWorld")
